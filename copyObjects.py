@@ -7,7 +7,7 @@ sourceAccountNo = input("Enter the source account number: ")
 sourceIAMUser = input("Enter the IAM user of source account: ")
 
 sourceBucketList = []
-bkts = input("Enter the name of source buckets separated by space: ")
+bkts = input("Enter the name of source buckets(not empty) separated by space: ")
 bList = bkts.split()
 for obj in bList:
     sourceBucketList.append(obj)
